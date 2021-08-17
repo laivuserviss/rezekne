@@ -39,7 +39,7 @@
 	font-weight: bold
 }
 
-.cenas-item>span {display: block; padding: 0 10px}
+.cenas-item>span, .cenas-novertet>span {display: block; padding: 5px 10px}
 
 .cenas-item {
 	width: 100%;
@@ -47,6 +47,16 @@
 	margin: 10px;
 	display: flex;
 	flex-flow: row nowrap;
+	background-color: white;
+	border: 1px dotted rgba(0, 0, 50, 0.5)
+}
+
+.cenas-novertet {
+	width: 100%;
+	max-width: 1000px;
+	margin: 10px;
+	display: flex;
+	flex-flow: column nowrap;
 	background-color: white;
 	border: 1px dotted rgba(0, 0, 50, 0.5)
 }

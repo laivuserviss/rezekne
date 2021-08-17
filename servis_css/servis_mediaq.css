@@ -137,7 +137,7 @@
 	
 	.publikacija>span {padding: 5px 0}
 	
-	.cenas-item {
+	.cenas-item, .cenas-novertet {
 		margin: 7px 0;
 		flex-flow: column nowrap
 	}
