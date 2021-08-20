@@ -82,7 +82,8 @@ header {
 	flex-flow: column nowrap;
 	justify-content: space-around;
 	align-items: center;
-	background-image: url("../servis_image/Laivutittle.png")   
+	background-image: url("../servis_image/Laivutittle.png");
+	background-position: center center
 }
 
 .main-virsraksts {
